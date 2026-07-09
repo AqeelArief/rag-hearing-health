@@ -1,0 +1,52 @@
+question_id,question_text,ground_truth_answer,answer_type,difficulty,topic_category,source_doc_id,requires_multi_hop,question_source
+Q0001,"By 2050, nearly how many people are projected to be living with some degree of hearing loss, per WHO?",Nearly 2.5 billion,factual_short,easy,general,WHO_hearing_2023,False,WHO_report
+Q0002,At least how many people will require rehabilitation services for hearing loss by 2050?,At least 700 million,factual_short,easy,general,WHO_hearing_2023,False,WHO_report
+Q0003,"How many people currently have moderate or higher levels of hearing loss requiring rehabilitation services, per WHO?",430 million,factual_short,medium,general,WHO_hearing_2023,False,WHO_report
+Q0004,Do hearing aids cure hearing loss?,No,yes_no,easy,hearing_aids,WHO_hearing_2023,False,WHO_report
+Q0005,What do hearing technologies like hearing aids and cochlear implants require to ensure desired outcomes?,Appropriate support services and rehabilitative therapy,factual_short,medium,hearing_aids,WHO_hearing_2023,False,WHO_report
+Q0006,Can noise exposure cause hearing loss in addition to age-related causes?,Yes,yes_no,easy,general,WHO_hearing_2023,False,WHO_report
+Q0007,Name two causative factors of hearing loss besides aging and noise exposure.,Otitis media (ear infections) and ototoxic medicines,factual_short,medium,general,WHO_hearing_2023,False,expert_written
+Q0008,What percentage of hearing loss in children is due to causes that can be prevented?,Almost 60%,factual_short,medium,general,WHO_hearing_2023,False,WHO_report
+Q0009,"How many young people worldwide are at risk of avoidable hearing loss, per WHO?",More than 1 billion,factual_short,medium,general,WHO_hearing_2023,False,WHO_report
+Q0010,"Approximately how many people suffer from preventable or treatable chronic ear infections, per WHO?",Around 200 million,factual_short,medium,general,WHO_hearing_2023,False,WHO_report
+Q0011,What is the estimated annual global cost of unaddressed hearing loss?,Nearly 1 trillion international dollars,factual_short,medium,general,WHO_hearing_2023,False,WHO_report
+Q0012,"For every 1 dollar invested in ear and hearing care, what return can governments expect?",Nearly 16 international dollars,factual_short,medium,general,WHO_hearing_2023,False,WHO_report
+Q0013,What percentage of people who could benefit from a hearing aid actually use one?,Only 17%,factual_short,medium,hearing_aids,WHO_hearing_2023,False,WHO_report
+Q0014,"What hearing threshold, in decibels, is used to define clinical hearing loss?",Greater than 20 dB,factual_short,hard,general,WHO_hearing_2023,False,WHO_report
+Q0015,"In low-income countries, what percentage have fewer than one ear, nose, and throat specialist per million population?",Approximately 78%,factual_short,hard,general,WHO_hearing_2023,False,WHO_report
+Q0016,What does the acronym H.E.A.R.I.N.G. stand for in WHO's framework for ear and hearing care?,Hearing screening and intervention; Ear disease prevention and management; Access to technologies; Rehabilitation services; Improved communication; Noise reduction; Greater community engagement,multi_part,hard,general,WHO_hearing_2023,True,expert_written
+Q0017,By how much might the number of people with hearing loss increase over the next three decades from 2019 levels?,More than 1.5-fold,factual_short,medium,general,WHO_hearing_2023,False,WHO_report
+Q0018,"What is the projected number of people with disabling hearing loss by 2050, according to WHO's chart?",711 million,factual_short,hard,general,WHO_hearing_2023,False,WHO_report
+Q0019,Can hearing loss negatively affect a child's development of language and speech if unaddressed?,Yes,yes_no,easy,general,WHO_hearing_2023,False,WHO_report
+Q0020,What additional annual per-capita investment is needed to scale up ear and hearing care globally by 2030?,US$ 1.33,factual_short,hard,general,WHO_hearing_2023,False,WHO_report
+Q0021,What is the title of this NIOSH Safety and Health Information Bulletin?,Preventing Hearing Loss Caused by Chemical (Ototoxicity) and Noise Exposure,factual_short,easy,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0022,What are ototoxicants?,"Chemicals, such as certain pesticides, solvents, and pharmaceuticals, that can cause hearing loss or balance problems regardless of noise exposure",factual_short,easy,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0023,Can combined exposure to noise and ototoxic chemicals cause greater hearing loss than either exposure alone?,Yes,yes_no,medium,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0024,What are the three categories used to classify ototoxic chemicals based on which part of the ear they damage?,"Neurotoxicants, cochleotoxicants, and vestibulotoxicants",factual_short,hard,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0025,Name two classes of substances that can be ototoxic.,Solvents and pharmaceuticals,factual_short,medium,noise_exposure,CDC_noise_2022,False,expert_written
+Q0026,At what noise action level does OSHA's occupational noise exposure standard require audiometric testing?,An 85-decibel 8-hour time-weighted average,factual_short,medium,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0027,Can hearing loss occur from ototoxic chemical exposure even when noise levels are below OSHA's Permissible Exposure Limit?,Yes,yes_no,hard,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0028,Name two industries identified as more likely to have ototoxicant exposure.,Manufacturing and construction,factual_short,medium,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0029,What is the first recommended step in preventing exposure to ototoxicants in the workplace?,Reviewing Safety Data Sheets (SDS) to identify whether ototoxicants are present,factual_short,medium,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0030,Exposure to ototoxic chemicals can cause difficulty with which four types of auditory processing?,"Compressed loudness, frequency resolution, temporal resolution, and spatial resolution",multi_part,hard,noise_exposure,CDC_noise_2022,True,expert_written
+Q0031,Is noise-induced hearing loss from damaged sensory hair cells always permanent?,"No, it can be either temporary or permanent, depending on the level of noise, dose of chemical, and duration of exposure",yes_no,medium,noise_exposure,CDC_noise_2022,False,CDC_bulletin
+Q0032,What are the three benchmarks in CDC's EHDI 1-3-6 plan?,"Screening before 1 month of age, diagnostic evaluation before 3 months of age, and early intervention enrollment before 6 months of age",multi_part,medium,pediatric,CDC_pediatric_2021,False,CDC_webpage
+Q0033,By what age should all infants be screened for hearing loss?,Before 1 month of age,factual_short,easy,pediatric,CDC_pediatric_2021,False,CDC_webpage
+Q0034,"If an infant does not pass the initial hearing screening, by when should they receive a full diagnostic evaluation?",Before 3 months of age,factual_short,easy,pediatric,CDC_pediatric_2021,False,CDC_webpage
+Q0035,By what age should infants with confirmed hearing loss be enrolled in early intervention services?,Before 6 months of age,factual_short,easy,pediatric,CDC_pediatric_2021,False,CDC_webpage
+Q0036,What government center is the source of the EHDI 1-3-6 benchmarks?,National Center on Birth Defects and Developmental Disabilities (NCBDDD),factual_short,hard,pediatric,CDC_pediatric_2021,False,CDC_webpage
+Q0037,Providing recommended services to infants with hearing loss before 6 months helps them develop what skills?,Communication and language skills that will last a lifetime,factual_short,medium,pediatric,CDC_pediatric_2021,False,CDC_webpage
+Q0038,What percentage of the U.S. adult population has experienced tinnitus lasting at least five minutes in the past year?,Roughly 10 percent,factual_short,easy,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0039,"Approximately how many Americans have experienced tinnitus, per NIDCD?",Nearly 24 million,factual_short,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0040,How many drugs are known to potentially cause tinnitus as a side effect?,More than 200,factual_short,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0041,What is pulsatile tinnitus?,"A rare type of tinnitus that sounds like a rhythmic pulsing in the ear, usually in time with the heartbeat, often caused by blood flow problems in the head or neck",factual_short,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0042,"Name two health conditions, besides noise-induced hearing loss, that can cause tinnitus.",Ear/sinus infections and Meniere's disease,factual_short,medium,tinnitus,NIH_tinnitus_2022,False,expert_written
+Q0043,Is tinnitus one of the most common service-related disabilities among veterans returning from Iraq and Afghanistan?,Yes,yes_no,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0044,In what year did NIDCD sponsor a workshop bringing together tinnitus researchers to discuss potential cures?,2009,factual_short,hard,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0045,What does acoustic neural stimulation use to help treat tinnitus?,A palm-sized device and headphones that deliver a broadband acoustic signal embedded in music,factual_short,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0046,Can antidepressants or antianxiety drugs be part of tinnitus treatment?,"Yes, to improve mood and help with sleep",yes_no,easy,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0047,"Do hearing aids cure tinnitus, or do they help manage it?","They help manage it by improving hearing, which can make tinnitus less noticeable, but they do not cure it",factual_short,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0048,Is tinnitus generally considered a disease or a symptom?,"A symptom, not a disease itself",factual_short,easy,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0049,Can tinnitus be permanently cured with current treatments?,No,yes_no,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0050,What are two examples of sound-masking devices used to manage tinnitus?,Wearable sound generators and tabletop sound generators,factual_short,medium,tinnitus,NIH_tinnitus_2022,False,NIH_faq
+Q0051,"Since tinnitus has no cure, what management approaches are used, and what do they aim to achieve?","Hearing aids, counseling, sound generators, acoustic neural stimulation, cochlear implants, and medications; they aim to reduce the severity and impact of tinnitus rather than eliminate the sound",multi_part,hard,tinnitus,NIH_tinnitus_2022,True,expert_written

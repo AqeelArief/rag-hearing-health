@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+seaborn
+scikit-learn
+sentence-transformers
+chromadb
+rank-bm25
+groq
+python-dotenv
+pypdf
